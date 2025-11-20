@@ -22,4 +22,11 @@
 Homestead.json
 Homestead.yaml
 Thumbs.db
+
+# Evitar archivos generados por volúmenes de Docker/Postgres
 docker-data/
+postgres-data/
+**/docker-data/
+**/postgres-data/
+**/postgres/*
+**/pgdata/*
